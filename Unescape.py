@@ -1,3 +1,13 @@
+"""
+将包含 JSON 转义字符的文本或C类型字符的转义文本，还原成正常可阅读的文本，并将转换结果保存到 output.txt 文件中。
+示例：
+"Hello\nWorld\t123"
+转换为
+Hello
+World	123
+使用示例:
+python Unescape.py input.txt
+"""
 import json
 import sys
 
